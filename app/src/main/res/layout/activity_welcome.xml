@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id='@+id/name'
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:hint="请输入用户名(可以不是真名)"
+        android:text="" />
+    <EditText
+        android:id = '@+id/gender'
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入性别(男/女)"
+        />
+    <EditText
+        android:id='@+id/height'
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="请输入身高(m)"
+        android:text="" />
+    <EditText
+        android:id = '@+id/weight'
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入体重(kg)"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        >
+        <Button
+            android:id="@+id/BMI_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI"/>
+        <TextView
+            android:id = "@+id/BMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:text="0.0"/>
+    </LinearLayout>>
+
+    <Button
+        android:id = '@+id/sure'
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进入"
+        android:textColor="@android:color/black"
+    />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:textColor="#E01F1F"
+        android:scrollbars="vertical"
+        android:text="国际糖尿病联合会 (IDF) 估计，多达2.12亿人没有确诊，相当于目前所有成人糖尿病患者的一半。其中大多数人患有2型糖尿病。
+
+所以我建立了糖尿病风险评估系统，旨在预测个人患 2 型糖尿病的风险。该测验对您的信息的收集仅用于评估风险，不会对您的任何信息进行存储及泄露，请放心使用。
+评估结果有一定的参考价值，但评估结果不是医学建议。如果您有风险或担心患有糖尿病，我建议您咨询医疗保健专业人士以获得更多信息。"/>
+
+</LinearLayout>
